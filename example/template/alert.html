@@ -1,0 +1,8 @@
+<div class="alert alert-${this.props.type ? this.props.type : 'warning'} ${this.props.dismissible ? 'alert-dismissible' : ''} fade show"
+    role="alert">
+    <slot></slot>
+    ${this.props.dismissible ?
+    `<button type="button" class="close" data-dismiss="alert" aria-label="Close" data-close-button>
+        <span aria-hidden="true">&times;</span>
+    </button>` : '' }
+</div>

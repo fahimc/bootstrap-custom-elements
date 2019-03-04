@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap-custom-elements",
+  "version": "1.0.0",
+  "description": "bootstrap custom elements wrapper to allow bootstrap to work inside the shadow dom",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fahimc/bootstrap-custom-elements.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fahimc/bootstrap-custom-elements/issues"
+  },
+  "homepage": "https://github.com/fahimc/bootstrap-custom-elements#readme",
+  "devDependencies": {
+    "bootstrap": "^4.3.1",
+    "variabilize-css": "https://github.com/fahimc/variabilize-css.git"
+  }
+}
